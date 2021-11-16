@@ -1,3 +1,1 @@
 # sanity-next.js-practice
-
----
