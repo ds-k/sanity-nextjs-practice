@@ -8403,6 +8403,11 @@ sanity-diff-patch@^1.0.9:
   dependencies:
     diff-match-patch "^1.0.5"
 
+sanity-plugin-url-metadata-input@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.npmjs.org/sanity-plugin-url-metadata-input/-/sanity-plugin-url-metadata-input-1.1.0.tgz#b92a3b8d4d72e6bc10885c81914b7e08974069a1"
+  integrity sha512-+Ij90w+23xk8Da8353zvP3Ufn6+OA7z1C/il5FfYC4+sSkHhRb2bospexbQB1xvFawZKFsMPpg0bTBRpsC1pIA==
+
 sax@~1.2.4:
   version "1.2.4"
   resolved "https://registry.npmjs.org/sax/-/sax-1.2.4.tgz#2816234e2378bddc4e5354fab5caa895df7100d9"
