@@ -67,18 +67,37 @@ export default {
     {
       type: "image",
       options: { hotspot: true },
+      fields: [
+        {
+          name: "caption",
+          title: "Caption",
+          type: "string",
+          options: {
+            isHighlighted: true,
+          },
+        },
+        {
+          name: "alt",
+          title: "alt",
+          type: "string",
+          options: {
+            isHighlighted: true,
+          },
+          validation: (Rule) => Rule.required(),
+        },
+      ],
     },
     {
       type: "video",
-      options: { hotspot: true },
     },
     {
       type: "code",
-      options: { hotspot: true },
     },
     {
       type: "link",
-      options: { hotspot: true },
+    },
+    {
+      type: "imageGallery",
     },
   ],
 };
