@@ -9,7 +9,6 @@ const CodeInput = React.forwardRef((props, ref) => {
   const {
     type, // Schema information
     value, // Current field value
-
     markers, // Markers including validation rules
     presence, // Presence information for collaborative avatars
     compareValue, // Value to check for "edited" functionality
