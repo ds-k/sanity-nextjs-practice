@@ -1,11 +1,17 @@
 import styles from "../styles/Home.module.css";
 import SanityServices from "../services/SanityServices";
 
+import Header from "../components/Header";
+import BlogHeadLine from "../components/BlogHeadline";
+
 export default function Home({ home, posts }) {
-  console.log(home, posts);
+  const mainPost = posts.find((p) => p.slug === home.mainPostUrl);
+  const otherPost = posts.filter((p) => p.slug !== home.mainPostUrl);
+  console.log(`mainPost, otherPost`, mainPost, otherPost);
   return (
     <div className={styles.container}>
-      <h1> Blog {home.mainPostUrl}</h1>
+      <Header />
+      <BlogHeadLine />
     </div>
   );
 }

@@ -1,7 +1,9 @@
-import '../styles/globals.css'
+// 전역 설정은 여기서..!
+import "antd/dist/antd.css";
+import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+  return <Component {...pageProps} />;
 }
 
-export default MyApp
+export default MyApp;
